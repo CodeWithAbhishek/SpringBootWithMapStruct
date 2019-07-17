@@ -7,12 +7,11 @@ In this application we are mapping "your infromation" class's beans in to "yourf
 NOTE:--When you will build this project the implementation of the mapper interface will genrated in the target/genrated-source folder.
 
 
-=====================================================================================================================================
-// this class wil be genrate after the build.
+==============================================
+// this class  wil be genrate after the build.
 
 
-@Component
-public class MappersinterImpl implements Mappersinter {
+
 
     @Override
     public YourFriendInformation getYourFriendInformation(YourInformation yourInformation) {
